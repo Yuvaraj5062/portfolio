@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chw from "../../Assets/Projects/chw.jpg";
-import emotion from "../../Assets/Projects/emotion.png";
 import goapp from "../../Assets/Projects/goapp.jpg";
 import tripworkz from "../../Assets/Projects/tripworkz.jpg";
 import ats from "../../Assets/Projects/ats.webp";
