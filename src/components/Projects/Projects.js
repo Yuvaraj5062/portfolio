@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import chw from "../../Assets/Projects/chw.jpg";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import goapp from "../../Assets/Projects/goapp.jpg";
+import tripworkz from "../../Assets/Projects/tripworkz.jpg";
+import ats from "../../Assets/Projects/ats.webp";
+import wcm from "../../Assets/Projects/wcm.jpg";
 
 function Projects() {
   return (
@@ -23,56 +23,58 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={tripworkz}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Trip Werkz (Singapore)"
+              description="Tripwerkz is Asia’s leading travel technology company that provides online travel booking services such as hotel reservation, airline ticket, packaged and customized tours and other corporate travel management applications."
               ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://test.archesoftronix.in/#/auth/login"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={wcm}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Walt Capital Management (South Africa)"
+              description="Walt Capital is a Capital Management system which provides a complete solution to your investment and fund management worries. You can manage all your funds invested, by creating multiple portfolios and managing them from one place."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://wcmfe-dev.archesoftronix.in/#/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={goapp}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Go App"
+              description="GoApp is a location tracking system using one device of location send, in this project we have one mobile app & dashboard app from a website. User can track vehicle by validate & track location device."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://goappfe.archesoftronix.in/#/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={chw}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="CHW (Click-Heal-Weal)"
+              description="CHW is revolutionizing healthcare by enabling consumers to find the best doctors, book instant appointments, consultations, and make better, more informed health decisions."
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://chwfe-qa.archesoftronix.in/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={ats}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="ATS"
+              description="ATS is the Payroll System to Manage Employees Salary slip, Attendance, Leave management, Holiday management, Manage Users with its roles, organization Setup, Activity Module, Sales Management, Client Sales Management, and Appraisal
+              Each part describes the module that showcases specific functionality and provides instructions   on how to manage & use these features. We are sure you will find the Website Application easy to use. Let's get started!."
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              demoLink="https://ats.archesoftronix.in/#/account/login" 
+      
             />
           </Col>
 
