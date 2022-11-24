@@ -27,7 +27,6 @@ function Projects() {
               isBlog={false}
               title="Trip Werkz (Singapore)"
               description="Tripwerkz is Asia’s leading travel technology company that provides online travel booking services such as hotel reservation, airline ticket, packaged and customized tours and other corporate travel management applications."
-              ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://test.archesoftronix.in/#/auth/login"
             />
           </Col>
@@ -38,7 +37,7 @@ function Projects() {
               isBlog={false}
               title="Walt Capital Management (South Africa)"
               description="Walt Capital is a Capital Management system which provides a complete solution to your investment and fund management worries. You can manage all your funds invested, by creating multiple portfolios and managing them from one place."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              // ghLink=""
               demoLink="https://wcmfe-dev.archesoftronix.in/#/"
             />
           </Col>
@@ -49,7 +48,7 @@ function Projects() {
               isBlog={false}
               title="Go App"
               description="GoApp is a location tracking system using one device of location send, in this project we have one mobile app & dashboard app from a website. User can track vehicle by validate & track location device."
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              // ghLink=""
               demoLink="https://goappfe.archesoftronix.in/#/"              
             />
           </Col>
@@ -60,7 +59,7 @@ function Projects() {
               isBlog={false}
               title="CHW (Click-Heal-Weal)"
               description="CHW is revolutionizing healthcare by enabling consumers to find the best doctors, book instant appointments, consultations, and make better, more informed health decisions."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              // ghLink=""
               demoLink="https://chwfe-qa.archesoftronix.in/"
             />
           </Col>
@@ -72,23 +71,13 @@ function Projects() {
               title="ATS"
               description="ATS is the Payroll System to Manage Employees Salary slip, Attendance, Leave management, Holiday management, Manage Users with its roles, organization Setup, Activity Module, Sales Management, Client Sales Management, and Appraisal
               Each part describes the module that showcases specific functionality and provides instructions   on how to manage & use these features. We are sure you will find the Website Application easy to use. Let's get started!."
-              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              // ghLink=""
               demoLink="https://ats.archesoftronix.in/#/account/login" 
       
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+         
         </Row>
       </Container>
     </Container>

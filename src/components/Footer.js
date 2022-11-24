@@ -14,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Yuvaraj Pawar</h3>
+          <h3>Developed by Yuvaraj Pawar</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} YP</h3>
@@ -44,7 +44,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://instagram.com/yuvi_pawar5062?igshid=YmMyMTA2M2Y="
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

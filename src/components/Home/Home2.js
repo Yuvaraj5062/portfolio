@@ -14,9 +14,9 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={6} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Let me <span className="purple">  introduce </span>  myself
             </h1>
             <p className="home-about-body">
             To work as a Software Developer and utilize my exceptional skills in making a positive contribution to the organization
@@ -75,16 +75,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
+              
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/yuvaraj-pawar-97b418212/"
@@ -97,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://instagram.com/yuvi_pawar5062?igshid=YmMyMTA2M2Y="
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
